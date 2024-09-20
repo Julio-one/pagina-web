@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Html/Proyecta a presentar/Css/style.CSS">
+    <title>Reservaciones</title>
+    <link rel="icon" href="Img/bonita.img.ico" type="image/x-icon">
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; 
+        }
+
+        
+        #videoFondo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;  
+            height: 100vh;  
+            object-fit: cover; 
+            z-index: -1;    
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    
+    <video id="videoFondo" autoplay  muted loop>
+        <source src="Img/portada.img.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        
+        var video = document.getElementById('videoFondo');
+        video.addEventListener('pause', function() {
+            video.play();
+        });
+    </script>
+    
+
+    
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+<body>
+
+    <div class="text2">
+    <h1 class="ner">Pudes reservar, enviando un correo o llamandonos:</h1>
+    <p class="isla">
+        laisla@bonita.com.gt <br>
+        PBX: 5555-6666
+    </p>
+    </div>
+    
+
+
+
+
+    <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 class="nerko-one"><a href="/Html/Proyecta a presentar/Index.HTML">Regresar</a></h1>
+    </div>
+
+</body>
+</html>
